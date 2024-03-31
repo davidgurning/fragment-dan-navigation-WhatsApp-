@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    app:cardBackgroundColor="#F8F8F8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/ivItemDino"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="@string/info_dino_photo"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_person"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvItemDino"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivItemDino"
+            android:layout_alignStart="@+id/ivItemDino"
+            android:layout_marginStart="105dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-62dp"
+            android:layout_toRightOf="@id/ivItemDino"
+            android:gravity="center_vertical"
+            android:text="@string/info_dino_nama"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cvItemDino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvItemDino"
+            android:layout_alignStart="@+id/tvItemDino"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-1dp"
+            android:justificationMode="inter_word"
+            android:paddingBottom="20dp"
+            android:text="@string/info_dino_tinggi"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

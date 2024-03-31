@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/ivItemFruit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circle_background"
+            android:contentDescription="@string/info_fruit_icon"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/addstory"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvItemFruit"
+            android:layout_width="165dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/ivItemFruit"
+            android:layout_alignStart="@+id/ivItemFruit"
+            android:layout_marginStart="117dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="-78dp"
+            android:layout_toRightOf="@id/ivItemFruit"
+            android:gravity="center_vertical"
+            android:text="Status Saya"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cvItemFruit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvItemFruit"
+            android:layout_alignStart="@+id/tvItemFruit"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:justificationMode="inter_word"
+            android:paddingBottom="20dp"
+            android:text="Ketuk untuk memperbaharui status"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFruits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        tools:listitem="@layout/item_row_fruit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

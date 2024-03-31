@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_fruit_icon">foto famili</string>
+    <string name="info_fruit_name">nama famili</string>
+    <string name="info_fruit_desc">deskripsi famili</string>
+    <string name="info_fruit_characteristic">karakteristik Famili</string>
+    <string name="info_fruit_kelompok">kelompok Famili</string>
+    <string name="info_fruit_habitat">habitat famili</string>
+    <string name="info_fruit_makananan">makanan famili</string>
+    <string name="info_fruit_panjang">Panjang famili</string>
+    <string name="info_fruit_tinggi">tinggi famili</string>
+    <string name="info_fruit_bobot">bobot famili</string>
+    <string name="info_fruit_kelemahan">kelemahan famili</string>
+    <string name="info_dino_photo">foto Dino</string>
+    <string name="info_dino_nama">nama Dino</string>
+    <string name="info_dino_deskripsi">deskripsi Dino</string>
+    <string name="info_dino_karakteristik">karakteristik Dino</string>
+    <string name="info_dino_kelompok">kelompok Dino</string>
+    <string name="info_dino_habitat">habitat Dino</string>
+    <string name="info_dino_makanan">makanan Dino</string>
+    <string name="info_dino_panjang">panjang Dino</string>
+    <string name="info_dino_tinggi">tinggi Dino</string>
+    <string name="info_dino_bobot">bobot Dino</string>
+    <string name="info_dino_kelemahan">kelemahan Dino</string>
+    <string-array name="fruit_name">
+        <item>Saurischia</item>
+        <item>Ornithischia</item>
+        <item>Theropoda</item>
+        <item>Sauropodomorpha</item>
+        <item>Ceratopsia</item>
+        <item>Stegosauria</item>
+        <item>Ankylosauria</item>
+        <item>Pterosauria</item>
+    </string-array>
+    <string-array name="fruit_icon">
+        <item>@drawable/saurischia</item>
+        <item>@drawable/ornithischia</item>
+        <item>@drawable/theropoda</item>
+        <item>@drawable/sauropodomorpha</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/stegosauria</item>
+        <item>@drawable/ankylosauria</item>
+        <item>@drawable/pterosauri</item>
+    </string-array>
+    <string-array name="fruit_description">
+        <item>
+            Kelompok ini terdiri dari dua subkelompok utama: Theropoda dan Sauropodomorpha. Theropoda terkenal sebagai dinosaurus karnivora yang mencakup predator terkenal seperti Tyrannosaurus rex dan Velociraptor. Mereka memiliki tubuh yang aerodinamis, cakar-cakar kuat, dan biasanya bipedal. Sauropodomorpha, di sisi lain, adalah dinosaurus herbivora yang besar dengan leher panjang dan ekor yang berat seperti Brachiosaurus dan Diplodocus.
+        </item>
+
+        <item>
+            Dinosaurus dalam kelompok ini mayoritas adalah herbivora. Mereka memiliki bentuk tubuh yang berbeda-beda, tetapi ciri khasnya adalah rahang berparuh dan gigi-gigi yang sesuai untuk mengunyah tumbuhan. Contoh dari kelompok ini termasuk Triceratops, Stegosaurus, dan Hadrosaurus.
+        </item>
+
+        <item>
+            Dinosaurus dalam kelompok ini adalah karnivora terkenal. Mereka memiliki cakar yang kuat, gigi tajam, dan tubuh yang aerodinamis. Beberapa yang paling terkenal termasuk Tyrannosaurus rex, Velociraptor, dan Spinosaurus. Mereka seringkali bipedal dan memiliki otot-otot yang kuat.
+        </item>
+
+        <item>
+            Dinosaurus dalam kelompok ini adalah herbivora yang sangat besar dengan leher panjang, ekor yang berat, dan tubuh yang besar. Mereka biasanya quadrupedal dan memiliki gigi-gigi yang cocok untuk mengunyah makanan tumbuhan. Brachiosaurus, Apatosaurus, dan Diplodocus adalah contohnya.
+        </item>
+
+        <item>
+            Dinosaurus dalam kelompok ini memiliki tanduk dan lempeng-keping pada tengkorak mereka. Mereka mayoritas adalah herbivora dan beberapa memiliki bentuk tubuh besar dan berat. Triceratops adalah salah satu yang paling terkenal dari kelompok ini.
+        </item>
+
+        <item>
+            Dinamai dari lempeng-keping pada punggung mereka, stegosauria adalah dinosaurus herbivora dengan punggung yang dilapisi oleh deretan lempeng-keping. Mereka juga memiliki cakar dan ekor bermuncung. Contohnya termasuk Stegosaurus.
+        </item>
+
+        <item>
+            Dinosaurus dalam kelompok ini memiliki tubuh yang dilapisi oleh cangkang tulang dan seringkali memiliki senjata defensif seperti ekor berat bersenjatakan tonjolan atau klub. Mereka mayoritas adalah herbivora. Contohnya termasuk Ankylosaurus.
+        </item>
+
+        <item>
+            Meskipun bukan dinosaurus sejati, pterosauria adalah reptil terbang yang hidup pada masa yang sama dengan dinosaurus. Mereka memiliki sayap membranosa yang menghubungkan antara anggota badan depan dan belakang. Beberapa contoh pterosauria adalah Pteranodon dan Quetzalcoatlus.
+        </item>
+
+    </string-array>
+    <string-array name="fruit_characteristic">
+        <item>Mayoritas saurischia adalah dinosaurus berpinggul klasik, yang berarti pinggul mereka mirip dengan kadal modern. Contoh terkenal dari saurischia adalah T-Rex..</item>
+        <item>Dinosaurus dalam kelompok ini memiliki pelvis yang mirip dengan burung (ornithischian), dengan rahang yang dilengkapi dengan gigi yang cocok untuk mengunyah tumbuhan..</item>
+        <item>Dinosaurus dalam kelompok ini cenderung memiliki tubuh yang ramping dengan kaki yang kuat, gigi yang runcing, dan cakar yang tajam. Mereka biasanya adalah pemangsa..</item>
+        <item>Dinosaurs dalam kelompok ini memiliki tubuh besar dengan leher panjang dan ekor yang besar, serta kaki yang kuat. Mereka adalah herbivora..</item>
+        <item>Mereka memiliki ciri khas tanduk dan lempeng tulang di tengkorak mereka.</item>
+        <item>Mereka memiliki lempeng tulang dan sepasang duri di punggung mereka.</item>
+        <item>Mereka memiliki tubuh yang dilengkapi dengan tulang berderet atau cekung, serta tonjolan-tonjolan tulang atau duri untuk pertahanan.</item>
+        <item>Reptil terbang dengan saya Pterosaur adalah reptil terbang prasejarah yang memiliki sayap kulit yang terhubung dari jari ke .</item>
+    </string-array>
+    <string-array name="fruit_kelompok">
+        <item>Dinosaurus dalam kelompok ini hidup pada periode Jura dan Kapur (sekitar 201 hingga 66 juta tahun yang lalu).</item>
+        <item>Dinosaurus dalam kelompok ini juga hidup pada periode Jura dan Kapur.</item>
+        <item>Theropoda hidup dari periode Trias hingga Kapur..</item>
+        <item>Mereka hidup dari periode Trias hingga Kapur.</item>
+        <item>Dinosaurs dalam kelompok ini hidup pada periode Kapur.</item>
+        <item>Stegosauria hidup pada periode Jura.</item>
+        <item>Dinosaurus dalam kelompok ini hidup pada periode Jura dan Kapur.</item>
+        <item>Pterosaur hidup pada periode Jura dan Kapur.</item>
+    </string-array>
+    <string-array name="fruit_habitat">
+        <item>Mereka tersebar di berbagai habitat, termasuk dataran rendah, hutan, dan dataran tinggi. Beberapa jenis mungkin lebih cenderung ke habitat tertentu, tetapi secara umum dapat dijumpai di berbagai lingkungan.</item>
+        <item>Hidup di berbagai habitat tergantung pada spesiesnya, termasuk hutan hujan tropis, dataran banjir, padang rumput, dan dataran rendah.</item>
+        <item>Beragam habitat, termasuk hutan, padang rumput, dan dataran terbuka.</item>
+        <item>Umumnya hidup di wilayah dataran rendah, dataran banjir, dan hutan-hutan lebat.</item>
+        <item>Umumnya ditemukan di dataran terbuka, padang rumput, dan daerah dengan vegetasi yang subur.</item>
+        <item>Mungkin hidup di hutan-hutan lebat, wilayah pegunungan, atau padang rumput.</item>
+        <item>Biasanya ditemukan di wilayah dataran rendah, dataran banjir, daerah berhutan, dan daerah pesisir.</item>
+        <item>Dapat ditemukan di berbagai habitat, termasuk daratan, pesisir, dan lautan. Mereka sering menghuni wilayah yang dekat dengan air untuk memudahkan dalam mencari makanan.</item>
+    </string-array>
+    <string-array name="fruit_makanan">
+        <item>Perilaku saurischia bervariasi tergantung pada spesiesnya. Beberapa mungkin berburu secara berkelompok, sementara yang lain mungkin lebih soliter.</item>
+        <item>Mayoritas adalah herbivora, memakan tumbuhan seperti dedaunan, pucuk-pucuk, dan berbagai jenis tanaman.</item>
+        <item>Karnivora, memakan hewan lain seperti mamalia kecil, reptil, dan dinosaurus lain.</item>
+        <item>Herbivora, biasanya memakan tumbuhan seperti daun, dedaunan, dan pucuk-pucuk.</item>
+        <item>Herbivora, memakan tumbuhan seperti dedaunan, pucuk-pucuk, dan tanaman rendah.</item>
+        <item>Herbivora, memakan dedaunan, pucuk-pucuk, dan tanaman rendah.</item>
+        <item>Herbivora, memakan dedaunan, pucuk-pucuk, dan tanaman rendah. Beberapa mungkin juga mengonsumsi invertebrata kecil.</item>
+        <item>
+            Meskipun bukan dinosaurus sejati, mereka adalah reptil terbang yang kemungkinan besar memakan ikan, invertebrata air, dan mungkin juga memanfaatkan sumber daya yang tersedia di daratan seperti buah-buahan dan serangga.
+        </item>
+    </string-array>
+    <string-array name="fruit_panjang">
+        <item>Saurischia dibagi menjadi dua subkelompok besar: Theropoda (termasuk T-Rex) dan Sauropodomorpha (seperti Brachiosaurus).</item>
+        <item>Panjang tubuh beragam tergantung pada spesiesnya. Sebagai contoh, Triceratops memiliki panjang sekitar 7-9 meter, sementara Stegosaurus bisa mencapai panjang sekitar 9 meter.</item>
+        <item>Panjang tubuh bervariasi tergantung pada spesiesnya. Contohnya, Tyrannosaurus rex bisa mencapai panjang sekitar 12 meter, sementara Velociraptor biasanya sekitar 2 meter panjangnya.</item>
+        <item>Panjang tubuh dapat bervariasi dari sekitar 4 meter (seperti Mussaurus) hingga lebih dari 30 meter (seperti Argentinosaurus).</item>
+        <item>Panjang tubuh berkisar dari sekitar 2 hingga 9 meter tergantung pada spesiesnya. Triceratops, salah satu yang terbesar, memiliki panjang sekitar 7-9 meter.</item>
+        <item>Panjang tubuh biasanya berkisar antara 4 hingga 9 meter tergantung pada spesiesnya. Sebagai contoh, Stegosaurus biasanya memiliki panjang sekitar 9 meter.</item>
+        <item>Panjang tubuh juga bervariasi antara spesiesnya. Beberapa ankylosaur mungkin memiliki panjang sekitar 4 hingga 9 meter, seperti Ankylosaurus.</item>
+        <item>
+            Panjang tubuh bervariasi tergantung pada spesiesnya. Contohnya, Pteranodon biasanya memiliki rentang sayap sekitar 7 meter, sedangkan Quetzalcoatlus bisa mencapai panjang sayap sekitar 10-11 meter.
+        </item>
+    </string-array>
+    <string-array name="fruit_tinggi">
+        <item>Tingginya berkisar dari sekitar 2 hingga 6 meter tergantung pada spesiesnya.</item>
+        <item>Tingginya berkisar dari sekitar 2 hingga 6 meter tergantung pada spesiesnya.</item>
+        <item>Tingginya berkisar dari sekitar 2 hingga 6 meter tergantung pada spesiesnya.</item>
+        <item>Tingginya bisa mencapai lebih dari 10 meter, tergantung pada spesiesnya.</item>
+        <item>Tingginya berkisar dari sekitar 2 hingga 4 meter tergantung pada spesiesnya.</item>
+        <item>Tingginya berkisar dari sekitar 2 hingga 5 meter tergantung pada spesiesnya.</item>
+        <item>Tingginya berkisar dari sekitar 1 hingga 4 meter tergantung pada spesiesnya.</item>
+        <item>Tingginya berkisar dari sekitar 0.3 hingga 3 meter tergantung pada spesiesnya.</item>
+    </string-array>
+    <string-array name="fruit_bobot">
+        <item>Beratnya bisa mencapai puluhan ton tergantung pada spesiesnya, dengan yang terbesar seperti Argentinosaurus dapat mencapai lebih dari 70 ton.</item>
+        <item>Beratnya bervariasi tergantung pada spesiesnya. Sebagai contoh, Triceratops bisa memiliki bobot sekitar 6 hingga 12 ton.</item>
+        <item>Bobotnya bervariasi tergantung pada spesiesnya. Misalnya, Velociraptor mungkin memiliki bobot sekitar 15 hingga 80 kilogram, sementara Tyrannosaurus rex bisa mencapai beberapa ton.</item>
+        <item>Beratnya bisa mencapai puluhan ton tergantung pada spesiesnya, dengan yang terbesar seperti Argentinosaurus dapat mencapai lebih dari 70 ton.</item>
+        <item>Beratnya bervariasi tergantung pada spesiesnya. Triceratops, sebagai contoh, mungkin memiliki bobot sekitar 6 hingga 12 ton.</item>
+        <item>Bobotnya bervariasi tergantung pada spesiesnya. Sebagai contoh, Stegosaurus bisa memiliki bobot sekitar 2 hingga 5 ton.</item>
+        <item>Beratnya bervariasi tergantung pada spesiesnya. Ankylosaurus, misalnya, mungkin memiliki bobot sekitar 4 hingga 8 ton.</item>
+        <item>Bobotnya bervariasi tergantung pada spesiesnya. Contohnya, Pteranodon mungkin memiliki bobot sekitar 20 hingga 40 kilogram, sementara Quetzalcoatlus bisa mencapai beberapa ratus kilogram</item>
+    </string-array>
+    <string-array name="fruit_kelemahan">
+        <item>Ukuran besar dapat membuatnya sulit bergerak dengan cepat; cakar-cakarnya dapat patah dalam pertempuran.</item>
+        <item>Rentan terhadap serangan predator karena kebanyakan adalah herbivora dengan sedikit perlindungan fisik.</item>
+        <item>Rentan terhadap cedera saat menyerang mangsa yang lebih besar daripada dirinya sendiri; bisa menjadi saingan dalam perburuan sumber daya.</item>
+        <item>Rentan terhadap penyakit dan parasit karena tubuh besar mereka membutuhkan waktu lama untuk pulih dari cedera.</item>
+        <item>Keberatan dan kekakuan tubuh mereka mungkin membuat mereka kurang gesit dalam menghindari predator.</item>
+        <item>Bentuk tubuh dan deretan lempeng-keping di punggung mungkin memberikan perlindungan terhadap predator, tetapi juga membuat mereka kurang gesit dalam bergerak.</item>
+        <item>Mobilitas yang terbatas karena tubuh yang dilapisi cangkang tulang tebal; rentan terhadap serangan predator yang berani.</item>
+        <item>Rentan terhadap predator darat saat mendarat; tergantung pada kondisi cuaca untuk terbang, sehingga rentan terhadap perubahan iklim.</item>
+    </string-array>
+
+    <string-array name="dino_nama">
+        <item>T-Rex (Tyrannosaurus Rex)</item>
+        <item>Brachiosaurus</item>
+        <item>Triceratops</item>
+        <item>Stegosaurus</item>
+        <item>Velociraptor</item>
+        <item>Allosaurus</item>
+        <item>Apatosaurus</item>
+        <item>Diplodocus</item>
+        <item>Protoceratops</item>
+        <item>Triceratops</item>
+        <item>Stegosaurus</item>
+        <item>Kentrosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Euoplocephalus</item>
+        <item>Pteranodon</item>
+    </string-array>
+
+    <string-array name="dino_photo">
+        <item>@drawable/ankylosauriaphoto</item>
+        <item>@drawable/ornithischiaphoto</item>
+        <item>@drawable/theropodaphoto</item>
+        <item>@drawable/sauropodomorphaphoto</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/stegosauriaphoto</item>
+        <item>@drawable/ankylosauriaphoto</item>
+        <item>@drawable/pterosauriaphoto</item>
+        <item>@drawable/saurischia</item>
+        <item>@drawable/pterosauriaphoto</item>
+        <item>@drawable/theropodaphoto</item>
+        <item>@drawable/pterosauriaphoto</item>
+        <item>@drawable/pterosauriaphoto</item>
+        <item>@drawable/pterosauriaphoto</item>
+        <item>@drawable/pterosauriaphoto</item>
+    </string-array>
+
+    <string-array name="dino_deskripsi">
+        <item>Tyrannosaurus rex adalah dinosaurus karnivora raksasa yang hidup sekitar 68-66 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara. Ia merupakan salah satu predator darat terbesar yang pernah ada, dengan gigi yang tajam dan kekuatan gigitan yang luar biasa.</item>
+        <item>Brachiosaurus adalah dinosaurus herbivora raksasa yang hidup sekitar 154-153 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara. Ia memiliki leher panjang dan tubuh besar yang menjadikannya salah satu hewan darat terbesar yang pernah hidup.</item>
+        <item>Triceratops adalah dinosaurus herbivora yang memiliki tiga tanduk pada tengkoraknya dan bercula paruh seperti burung. Ia hidup sekitar 68-66 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.</item>
+        <item>Stegosaurus adalah dinosaurus herbivora yang memiliki punggung dilapisi oleh plat-plat tulang besar yang disebut sebagai osteoderma. Ia hidup sekitar 155-150 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.</item>
+        <item>Velociraptor adalah dinosaurus karnivora yang kecil namun cerdas dan lincah. Ia hidup sekitar 75-71 juta tahun yang lalu di wilayah yang sekarang menjadi Mongolia.</item>
+        <item>Allosaurus adalah dinosaurus karnivora raksasa yang memiliki gigi-gigi yang tajam dan cakar yang kuat. Ia hidup sekitar 155-150 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.</item>
+        <item>Apatosaurus, sebelumnya dikenal sebagai Brontosaurus, adalah dinosaurus herbivora raksasa yang memiliki leher panjang dan ekor yang besar. Ia hidup sekitar 154-152 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.</item>
+        <item>Diplodocus adalah dinosaurus herbivora raksasa yang memiliki leher panjang dan ekor yang panjang pula. Ia hidup sekitar 154-152 juta tahun yang lalu di wilayah yang sekarang menjadi Amerika Utara.</item>
+        <item>Protoceratops adalah dinosaurus herbivora yang relatif kecil dan memiliki cula paruh seperti burung. Ia hidup sekitar 83.5-70.6 juta tahun yang lalu di wilayah yang sekarang menjadi Mongolia.</item>
+        <item>Triceratops adalah dinosaurus herbivora yang memiliki tiga tanduk pada tengkoraknya, dengan tanduk yang besar di atas hidungnya dan sepasang tanduk yang lebih kecil di atas matanya. Ia hidup pada periode Cretaceous Akhir, sekitar 68-66 juta tahun yang lalu..</item>
+        <item>Stegosaurus adalah dinosaurus herbivora yang dikenal dengan punggungnya yang dilapisi oleh plat-plat tulang besar, serta ekornya yang dilengkapi dengan tonjolan-tonjolan tulang. Ia hidup pada periode Jurassic Akhir, sekitar 155-150 juta tahun yang lalu.</item>
+        <item>sejenis dinosaurus herbivora yang termasuk dalam kelompok Stegosauria, hidup sekitar 156-150 juta tahun yang lalu pada periode Jurassic Awal hingga Tengah. Dinosaurs ini ditemukan di wilayah yang sekarang menjadi Tanzania, Afrika. Berikut adalah beberapa ciri khas dari Kentrosaurus:</item>
+        <item>Ankylosaurus adalah dinosaurus herbivora yang dilengkapi dengan lapisan tulang atau keratin yang membentuk guratan-guratan pada tubuhnya, serta tonjolan-tonjolan tulang di punggungnya. Ia hidup pada periode Cretaceous Akhir, sekitar 68-66 juta tahun yang lalu, dan dikenal dengan perlindungan tubuhnya yang kuat.</item>
+        <item>Euoplocephalus: Euoplocephalus adalah sejenis dinosaurus herbivora yang termasuk dalam kelompok Ankylosauria. Dinosaurus ini hidup pada periode Cretaceous Akhir, sekitar 76-65 juta tahun yang lalu, di wilayah yang sekarang menjadi bagian dari Amerika Utara, khususnya Kanada dan Amerika Serikat barat.</item>
+        <item>Pteranodon adalah sejenis pterosaur yang hidup pada periode Cretaceous Akhir, sekitar 70-66 juta tahun yang lalu. Mereka adalah salah satu reptil terbang terbesar yang pernah ada, ditemukan di wilayah yang sekarang menjadi bagian dari Amerika Utara, khususnya di sepanjang pantai barat</item>
+    </string-array>
+
+    <string-array name="dino_karaktersitik">
+        <item>T-Rex adalah dinosaurus karnivora yang memiliki tubuh besar dengan rahang yang kuat dan gigi tajam. Mereka dikenal sebagai predator puncak di era Cretaceous dengan lengan yang pendek namun kaki yang kuat.</item>
+        <item>Triceratops adalah dinosaurus herbivora yang memiliki ciri khas tiga tanduk besar di bagian depan wajahnya. Dikenal sebagai dinosaurus tanduk yang paling terkenal, mereka memiliki tubuh besar dan kuat.</item>
+        <item>Velociraptor adalah dinosaurus karnivora berukuran sedang yang cepat dan lincah dalam berburu. Mereka dilengkapi dengan cakar-cakar besar di kedua kakinya dan memiliki otak yang cerdas untuk strategi berburu.</item>
+        <item>Brachiosaurus adalah dinosaurus herbivora yang memiliki leher panjang, memungkinkannya mencapai daun-daun pohon tinggi. Mereka adalah salah satu dinosaurus terbesar yang pernah hidup, dengan tubuh besar dan kaki yang panjang.</item>
+        <item>Styracosaurus adalah dinosaurus herbivora yang memiliki tanduk-tanduk yang mencolok di bagian belakang kepalanya. Mereka memiliki tubuh besar dengan kaki yang kuat, dan kemungkinan tanduk-tanduk tersebut digunakan untuk pertahanan diri atau komunikasi.</item>
+        <item>Stegosaurus adalah dinosaurus herbivora yang dilapisi oleh deretan besar pelat tulang di punggungnya. Mereka juga memiliki ekor yang dilengkapi dengan sepasang duri besar. Stegosaurus terkenal dengan punggungnya yang mengesankan.</item>
+        <item>Ankylosaurus adalah dinosaurus herbivora yang dilapisi oleh pelat-pelat tulang yang keras untuk perlindungan. Mereka dilengkapi dengan sebuah palu berat di ujung ekornya, membuat mereka dilindungi dengan baik dari serangan predator.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+        <item>Pteranodon adalah pterosaur (reptil terbang) dengan sayap besar dan mirip dengan layar. Mereka memiliki rahang panjang dengan gigi-gigi kecil untuk menangkap ikan di udara, dan mampu terbang dengan kecepatan tinggi meskipun tidak sama dengan burung.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok">
+        <item>Termasuk dalam kelompok Saurischia, yang merupakan salah satu dari dua kelompok besar dinosaurus bersama Ornithischia. Saurischia sering kali mencakup dinosaurus-dinosaurus karnivora dan herbivora dengan ciri khas struktur tulang pinggul yang menyerupai reptil modern.</item>
+        <item>Termasuk dalam kelompok Ornithischia, yang merupakan kelompok dinosaurus herbivora yang lebih dominan. Mereka memiliki bentuk pinggul yang mirip dengan burung, berbeda dengan kelompok Saurischia.</item>
+        <item>Merupakan bagian dari kelompok Theropoda, yang juga termasuk T-Rex. Dinosaurus dalam kelompok Theropoda mayoritas adalah karnivora, sering kali dengan ciri-ciri yang mirip dengan burung modern dan cakar yang tajam.</item>
+        <item>Masuk dalam kelompok Sauropodomorpha, yang terkenal dengan dinosaurus-dinosaurus besar bertubuh panjang seperti Brachiosaurus dan Diplodocus. Kelompok ini biasanya herbivora dengan leher yang panjang dan kaki yang kuat untuk menopang tubuh besar mereka.</item>
+        <item>Termasuk dalam kelompok Ceratopsia, yang meliputi dinosaurus-dinosaurus dengan tanduk-tanduk dan lempeng-lempong yang mencolok di tengkorak mereka. Ceratopsia adalah kelompok herbivora yang beragam, dengan berbagai bentuk dan ukuran.</item>
+        <item>Masuk dalam kelompok Stegosauria, yang terkenal dengan pelat-pelat tulang dan duri-duri besar yang melapisi punggung mereka. Stegosauria adalah kelompok herbivora yang sering kali memiliki struktur defensif seperti itu.</item>
+        <item>Termasuk dalam kelompok Ankylosauria, yang dikenal dengan perlindungan yang kuat seperti pelat-pelat tulang dan senjata alami seperti palu ekor. Ankylosauria adalah kelompok herbivora yang biasanya memiliki struktur tubuh yang berat dan perlindungan yang kuat.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+        <item>Pteranodon adalah anggota kelompok Pterosauria, yang merupakan reptil terbang dan bukan dinosaurus sejati. Mereka memiliki sayap yang besar dan ringan, yang memungkinkan mereka untuk terbang di udara dengan kecepatan tinggi dan menangkap ikan di laut.</item>
+    </string-array>
+
+    <string-array name="dino_habitat">
+        <item>Ditemukan di habitat darat yang luas seperti hutan, dataran rendah, dan dataran banjir pada masa itu. Mereka mendiami wilayah yang sebagian besar daratan dengan sumber makanan yang cukup untuk memenuhi kebutuhan sebagai karnivora puncak.</item>
+        <item>Hidup di habitat darat yang beragam seperti padang rumput, hutan, dan dataran banjir. Mereka sering ditemukan di daerah yang subur dengan vegetasi yang melimpah sebagai sumber makanan utama mereka.</item>
+        <item>Menghuni berbagai habitat darat, termasuk hutan, padang rumput, dan daerah pantai. Mereka adalah predator yang adaptif dan bisa ditemukan di berbagai lingkungan untuk mencari mangsa.</item>
+        <item>Biasanya ditemukan di habitat dataran rendah dan daerah rawa-rawa yang subur dengan vegetasi yang tinggi. Mereka sering ditemukan dekat dengan sumber air dan tumbuhan berkayu yang menjadi makanan utama mereka.</item>
+        <item>Umumnya ditemukan di padang rumput terbuka dan hutan dataran rendah dengan vegetasi yang cukup untuk memenuhi kebutuhan makan mereka. Mereka menghuni wilayah yang beragam dengan berbagai jenis tumbuhan.</item>
+        <item>Hidup di habitat darat yang luas seperti hutan-hutan yang lebat, padang rumput, dan dataran rendah. Mereka sering ditemukan di lingkungan dengan vegetasi yang melimpah untuk memenuhi kebutuhan makan mereka.</item>
+        <item>Biasanya ditemukan di daerah-daerah berhutan dan dataran rendah yang subur dengan vegetasi yang tinggi. Mereka menghuni habitat yang beragam dengan perlindungan yang kuat dari predator.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+        <item>Menghuni daerah pesisir dan pantai yang luas, serta sering terlihat di atas lautan. Mereka mencari makan di laut dan menggunakan pantai sebagai tempat bersarang, dengan mencari ikan dan organisme laut lainnya sebagai sumber makanan.</item>
+    </string-array>
+
+    <string-array name="dino_makanan">
+        <item>Sebagai karnivora puncak, T-Rex memangsa berbagai jenis hewan herbivora dan kadang-kadang juga dinosaurus lainnya. Mereka biasanya memangsa hadrosaurus, ceratopsian, serta dinosaurus herbivora besar lainnya yang hidup di habitat mereka.</item>
+        <item>Triceratops adalah herbivora yang memakan berbagai jenis tumbuhan seperti dedaunan, cabang, dan tanaman rendah. Mereka mungkin juga mengonsumsi tumbuhan seperti pakis, pohon, dan semak-semak.</item>
+        <item>Sebagai predator yang lincah, Velociraptor memangsa hewan-hewan kecil seperti burung, mamalia kecil, dan reptil. Mereka juga mungkin memakan telur dari spesies lain atau serangga jika diperlukan.</item>
+        <item>Brachiosaurus adalah herbivora yang memakan dedaunan, pucuk, dan tanaman berkayu tinggi. Mereka menggunakan leher panjang mereka untuk mencapai daun-daun tinggi di pohon-pohon besar.</item>
+        <item>Sebagai herbivora, Styracosaurus memakan berbagai jenis tumbuhan seperti dedaunan, batang, dan buah-buahan. Mereka mungkin juga memakan tanaman berbunga dan tumbuhan rendah di sekitar habitat mereka.</item>
+        <item>Stegosaurus adalah herbivora yang memakan dedaunan, tumbuhan berduri, dan semak-semak. Mereka juga mungkin memakan tumbuhan rendah seperti lumut dan pakis.</item>
+        <item>Ankylosaurus memakan berbagai jenis tumbuhan seperti dedaunan, batang, dan akar. Mereka mungkin juga memakan buah-buahan dan tumbuhan berduri yang tumbuh di sekitar habitat mereka.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+        <item>Pteranodon adalah pemakan ikan dan organisme laut lainnya. Mereka menangkap ikan dari laut menggunakan paruh mereka saat terbang di atas permukaan air atau menyelam dari udara ke dalam air untuk menangkap mangsa.</item>
+    </string-array>
+
+    <string-array name="dino_panjang">
+        <item>Panjang tubuh T-Rex diperkirakan mencapai sekitar 12 meter atau bahkan lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Triceratops dapat mencapai sekitar 7-9 meter dari ujung ke ujung tanduknya.</item>
+        <item>Velociraptor memiliki panjang tubuh sekitar 1.8 meter dari ujung hidung hingga ekor.</item>
+        <item>Panjang tubuh Brachiosaurus diperkirakan mencapai sekitar 22-25 meter dari ujung kepala hingga ekor.</item>
+        <item>Styracosaurus memiliki panjang tubuh sekitar 5-6 meter dari ujung hidung hingga ujung ekor.</item>
+        <item>Panjang tubuh Stegosaurus diperkirakan mencapai sekitar 9 meter dari ujung hidung hingga ujung ekor.</item>
+        <item>Panjang tubuh Ankylosaurus dapat mencapai sekitar 6-7 meter dari ujung hidung hingga ujung ekor.</item>
+        <item>Panjang tubuh Ankylosaurus dapat mencapai sekitar 6-7 meter dari ujung hidung hingga ujung ekor.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+        <item>Panjang tubuh Pteranodon, termasuk sayapnya, dapat mencapai sekitar 6 meter atau lebih untuk individu yang lebih besar.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi">
+        <item>Tinggi T-Rex sekitar 4-6 meter pada bagian punggungnya, dan tinggi dari tanah hingga ujung tanduknya bisa mencapai sekitar 3 meter.</item>
+        <item>Tinggi Triceratops sekitar 2-3 meter pada bahunya, dan tinggi dari tanah hingga ujung tanduknya bisa mencapai sekitar 2 meter.</item>
+        <item>Velociraptor memiliki tinggi sekitar 0.5-0.6 meter pada pangkal ekornya, dengan tinggi di bahu sekitar setengahnya.</item>
+        <item>Velociraptor memiliki tinggi sekitar 0.5-0.6 meter pada pangkal ekornya, dengan tinggi di bahu sekitar setengahnya.</item>
+        <item>Tinggi Brachiosaurus sekitar 9-12 meter pada puncak kepala dan lehernya, dengan bagian punggungnya mencapai ketinggian yang lebih rendah.</item>
+        <item>Tinggi Brachiosaurus sekitar 9-12 meter pada puncak kepala dan lehernya, dengan bagian punggungnya mencapai ketinggian yang lebih rendah.</item>
+        <item>Tinggi Styracosaurus sekitar 2-2.5 meter pada bahunya, dan tinggi dari tanah hingga ujung tanduknya bisa mencapai sekitar 2 meter.</item>
+        <item>Tinggi Styracosaurus sekitar 2-2.5 meter pada bahunya, dan tinggi dari tanah hingga ujung tanduknya bisa mencapai sekitar 2 meter.</item>
+        <item>Tinggi Stegosaurus sekitar 2-3 meter pada bahunya, dengan tinggi dari tanah hingga punggungnya sekitar 2 meter.</item>
+        <item>Tinggi Stegosaurus sekitar 2-3 meter pada bahunya, dengan tinggi dari tanah hingga punggungnya sekitar 2 meter.</item>
+        <item>Tinggi Ankylosaurus sekitar 1.5-2 meter pada bahunya, dengan tinggi dari tanah hingga punggungnya sekitar 1.5 meter.</item>
+        <item>Tinggi Ankylosaurus sekitar 1.5-2 meter pada bahunya, dengan tinggi dari tanah hingga punggungnya sekitar 1.5 meter.</item>
+        <item>Tinggi Ankylosaurus sekitar 1.5-2 meter pada bahunya, dengan tinggi dari tanah hingga punggungnya sekitar 1.5 meter.</item>
+        <item>Pteranodon memiliki tinggi sekitar 1-1.5 meter pada pangkal ekornya, dan tinggi dari tanah hingga ujung sayapnya bisa mencapai 3-4 meter atau lebih.</item>
+        <item>Pteranodon memiliki tinggi sekitar 1-1.5 meter pada pangkal ekornya, dan tinggi dari tanah hingga ujung sayapnya bisa mencapai 3-4 meter atau lebih.</item>
+    </string-array>
+
+
+    <string-array name="dino_bobot">
+        <item>Bobot T-Rex dewasa diperkirakan antara 5 hingga 8 ton.</item>
+        <item>Bobot Triceratops dewasa diperkirakan antara 6 hingga 12 ton.</item>
+        <item>Bobot Velociraptor dewasa diperkirakan antara 15 hingga 20 kg.</item>
+        <item>Bobot Velociraptor dewasa diperkirakan antara 15 hingga 20 kg.</item>
+        <item>Bobot Velociraptor dewasa diperkirakan antara 15 hingga 20 kg.</item>
+        <item>Bobot Velociraptor dewasa diperkirakan antara 15 hingga 20 kg.</item>
+        <item>Bobot Velociraptor dewasa diperkirakan antara 15 hingga 20 kg.</item>
+        <item>Bobot Brachiosaurus dewasa diperkirakan antara 30 hingga 50 ton.</item>
+        <item>Bobot Styracosaurus dewasa diperkirakan antara 2 hingga 3 ton.</item>
+        <item>Bobot Stegosaurus dewasa diperkirakan antara 2 hingga 5 ton.</item>
+        <item>Bobot Stegosaurus dewasa diperkirakan antara 2 hingga 5 ton.</item>
+        <item>Bobot Stegosaurus dewasa diperkirakan antara 2 hingga 5 ton.</item>
+        <item>Bobot Ankylosaurus dewasa diperkirakan antara 4 hingga 6 ton.</item>
+        <item>Sulit untuk memberikan perkiraan bobot pasti untuk Pteranodon karena mereka adalah reptil terbang, tetapi perkiraan awal menunjukkan mereka mungkin memiliki bobot sekitar 15 hingga 20 kg, terutama tergantung pada ukuran spesiesnya.</item>
+        <item>Sulit untuk memberikan perkiraan bobot pasti untuk Pteranodon karena mereka adalah reptil terbang, tetapi perkiraan awal menunjukkan mereka mungkin memiliki bobot sekitar 15 hingga 20 kg, terutama tergantung pada ukuran spesiesnya.</item>
+    </string-array>
+
+
+    <string-array name="dino_kelemahan">
+        <item>Kelemahan T-Rex adalah lengan yang relatif pendek, yang mungkin mengurangi kemampuan mereka dalam menangkap atau memanipulasi mangsa dengan keakuratan tinggi, serta ukuran tubuh mereka yang besar yang membuatnya rentan terhadap cedera atau penyakit yang signifikan.</item>
+        <item>Kelemahan T-Rex adalah lengan yang relatif pendek, yang mungkin mengurangi kemampuan mereka dalam menangkap atau memanipulasi mangsa dengan keakuratan tinggi, serta ukuran tubuh mereka yang besar yang membuatnya rentan terhadap cedera atau penyakit yang signifikan.</item>
+        <item>Triceratops rentan terhadap serangan predator dari samping atau belakang karena sedikit perlindungan di bagian tubuh tersebut, dan ukuran tubuh yang besar mungkin membatasi gerakan atau kecepatannya.</item>
+        <item>Triceratops rentan terhadap serangan predator dari samping atau belakang karena sedikit perlindungan di bagian tubuh tersebut, dan ukuran tubuh yang besar mungkin membatasi gerakan atau kecepatannya.</item>
+        <item>Kelemahan Velociraptor termasuk ukuran tubuh yang kecil yang membuatnya rentan terhadap serangan predator yang lebih besar, dan cakar-cakar besar yang digunakan untuk memangsa juga dapat menjadi rentan terhadap kerusakan selama pertarungan.</item>
+        <item>Brachiosaurus rentan terhadap kelaparan atau dehidrasi karena membutuhkan jumlah makanan dan air yang besar setiap hari untuk mendukung ukuran tubuhnya yang besar, serta memiliki keterbatasan gerakan atau kecepatan karena ukuran tubuh yang besar dan berat.</item>
+        <item>Brachiosaurus rentan terhadap kelaparan atau dehidrasi karena membutuhkan jumlah makanan dan air yang besar setiap hari untuk mendukung ukuran tubuhnya yang besar, serta memiliki keterbatasan gerakan atau kecepatan karena ukuran tubuh yang besar dan berat.</item>
+        <item>Kelemahan Styracosaurus meliputi rentannya terhadap serangan predator dari atas karena kurangnya perlindungan pada bagian tubuh atas, dan keterbatasan gerakan atau kecepatan karena ukuran tubuhnya yang besar dan berat.</item>
+        <item>Kelemahan Styracosaurus meliputi rentannya terhadap serangan predator dari atas karena kurangnya perlindungan pada bagian tubuh atas, dan keterbatasan gerakan atau kecepatan karena ukuran tubuhnya yang besar dan berat.</item>
+        <item>Kelemahan Styracosaurus meliputi rentannya terhadap serangan predator dari atas karena kurangnya perlindungan pada bagian tubuh atas, dan keterbatasan gerakan atau kecepatan karena ukuran tubuhnya yang besar dan berat.</item>
+        <item>Stegosaurus rentan terhadap serangan predator dari samping atau belakang karena perlindungan utamanya terdapat di punggungnya, dan mungkin memiliki keterbatasan manuver atau kecepatan karena struktur tubuhnya yang besar dan berat.</item>
+        <item>Ankylosaurus rentan terhadap serangan predator dari samping atau belakang karena perlindungannya yang kuat terutama terfokus di bagian atas tubuhnya, dan keterbatasan mobilitas atau kecepatan karena tubuhnya yang besar dan berat serta struktur yang rendah.</item>
+        <item>Ankylosaurus rentan terhadap serangan predator dari samping atau belakang karena perlindungannya yang kuat terutama terfokus di bagian atas tubuhnya, dan keterbatasan mobilitas atau kecepatan karena tubuhnya yang besar dan berat serta struktur yang rendah.</item>
+        <item>Pteranodon rentan terhadap predasi oleh predator lain di habitat laut dan tergantung pada kondisi lingkungan seperti cuaca atau perubahan iklim karena ketergantungan pada lingkungan maritim untuk mencari makanan dan tempat bersarang.</item>
+        <item>Pteranodon rentan terhadap predasi oleh predator lain di habitat laut dan tergantung pada kondisi lingkungan seperti cuaca atau perubahan iklim karena ketergantungan pada lingkungan maritim untuk mencari makanan dan tempat bersarang.</item>
+    </string-array>
+</resources>
